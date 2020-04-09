@@ -10,7 +10,10 @@ npm install -S @feizheng/next-jjencode
 ```js
 import '@feizheng/next-jjencode';
 
-//DOCS here!
+const res = nx.jjencode('$', `console.log("Hello, JavaScript" )`, true);
+
+// result
+'\"+'+",$=~[];$={___:++$,$$$$:(![]+"")[$],__$:++$,$_$_:(![]+"")[$],_$_:++$,$_$$:({}+"")[$],$$_$:($[$]+"")[$],_$$:++$,$$$_:(!""+"")[$],$__:++$,$_$:++$,$$__:({}+"")[$],$$_:++$,$$$:++$,$___:++....
 ```
 
 ## resources
