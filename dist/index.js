@@ -3,7 +3,7 @@
  * description: jjencode for next.
  * homepage: https://github.com/afeiship/next-jjencode
  * version: 1.0.0
- * date: 2020-11-22 13:35:25
+ * date: 2020-11-22 13:36:13
  * license: MIT
  */
 
