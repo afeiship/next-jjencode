@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-jjencode
+ * description: jjencode for next.
+ * homepage: https://github.com/afeiship/next-jjencode
+ * version: 1.0.0
+ * date: 2020-11-22 13:35:25
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.jjencode = function (gv, text, palindrome) {
     var p = palindrome || false;

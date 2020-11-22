@@ -1,15 +1,6 @@
-/*!
- * name: @feizheng/next-jjencode
- * description: jjencode for next.
- * url: https://github.com/afeiship/next-jjencode
- * version: 1.0.0
- * date: 2020-04-09 23:57:44
- * license: MIT
- */
-
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.jjencode = function (gv, text, palindrome) {
     var p = palindrome || false;
@@ -234,5 +225,3 @@
     module.exports = nx.jjencode;
   }
 })();
-
-//# sourceMappingURL=next-jjencode.js.map
